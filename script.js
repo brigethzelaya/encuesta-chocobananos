@@ -1,7 +1,7 @@
 const formulario = document.getElementById("encuesta");
 
 // ⚠️ AQUÍ PEGARÁS LA URL DE GOOGLE APPS SCRIPT
-const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbyUXKNlBi0TTVv3rJmFkheUUWJxe36dNyI2A9B7laEBqsLmEXqZr6U52GqHugdzG9d7/exec";
+const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbyUmo_rI_E_Gpu0m-D1ckgX0Vy5jQIdI45_JHcRC-BUH_1vezK8StU96qxOoO-Pg8Ym/exec";
 
 formulario.addEventListener("submit", function (e) {
 
