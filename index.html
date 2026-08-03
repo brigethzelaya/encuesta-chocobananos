@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta - Chocobananitas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="encabezado">
+
+        <img src="logo_colegio.png" alt="Logo Instituto" class="logo">
+
+        <div class="titulo">
+            <h1>Chocobananos</h1>
+            <h2>Instituto Perla del Ulua</h2>
+        </div>
+
+        <img src="logo_chocobananitas.png" alt="Logo Chocobananitas" class="logo-choco">
+
+    </div>
+
+    <form id="encuesta">
+
+        <label>Correo electrónico *</label>
+        <input type="email" name="correo" required>
+
+        <label>Nombre del estudiante *</label>
+        <input type="text" name="nombre" required>
+
+        <label>¿En qué grado estudias?</label>
+        <input type="text" name="grado">
+
+        <label>1. ¿Te gustan los chocobananos?</label>
+
+        <input type="radio" name="gustan" value="Sí"> Sí<br>
+        <input type="radio" name="gustan" value="No"> No
+
+        <label>2. ¿Comprarías chocobananos en el colegio?</label>
+
+        <input type="radio" name="compraria" value="Sí"> Sí<br>
+        <input type="radio" name="compraria" value="No"> No<br>
+        <input type="radio" name="compraria" value="Tal vez"> Tal vez
+
+        <label>3. ¿Cuál de estos sabores prefieres?</label>
+
+        <select name="sabor">
+            <option>Chocolate</option>
+            <option>Fresa</option>
+            <option>Vainilla</option>
+        </select>
+
+        <label>4. ¿Te gustaría que hubiera más de un sabor disponible?</label>
+
+        <input type="radio" name="variosSabores" value="Sí"> Sí<br>
+        <input type="radio" name="variosSabores" value="No"> No
+
+        <label>5. ¿Con qué frecuencia comprarías un chocobanano?</label>
+
+        <select name="frecuencia">
+            <option>Todos los días</option>
+            <option>2 o 3 veces por semana</option>
+            <option>Una vez por semana</option>
+            <option>Rara vez</option>
+        </select>
+
+        <label>6. ¿Cuánto estarías dispuesto(a) a pagar?</label>
+
+        <select name="precio">
+            <option>L.10</option>
+            <option>L.15</option>
+            <option>L.20</option>
+            <option>Más de L.20</option>
+        </select>
+
+        <label>7. ¿En qué momento lo comprarías?</label>
+
+        <select name="momento">
+            <option>Recreo</option>
+            <option>Antes de clases</option>
+            <option>Al salir del colegio</option>
+        </select>
+
+        <label>8. ¿Qué es lo más importante para ti?</label>
+
+        <select name="importante">
+            <option>Sabor</option>
+            <option>Precio</option>
+            <option>Tamaño</option>
+            <option>Presentación</option>
+        </select>
+
+        <label>9. ¿Prefieres que el chocobanano tenga cobertura?</label>
+
+        <input type="radio" name="cobertura" value="Completa"> Completa<br>
+        <input type="radio" name="cobertura" value="Solo por encima"> Solo por encima
+
+        <label>10. ¿Te gustaria que llevara toppings?</label>
+
+        <input type="radio" name="toppings" value="Sí"> Sí<br>
+        <input type="radio" name="toppings" value="No"> No
+
+        <label>11. ¿Crees que el precio influye en tu decisión de compra?</label>
+
+        <input type="radio" name="influye" value="Sí"> Sí<br>
+        <input type="radio" name="influye" value="No"> No
+
+        <label>12. ¿Recomendarías nuestros chocobananos a tus amigos?</label>
+
+        <input type="radio" name="recomendaria" value="Sí"> Sí<br>
+        <input type="radio" name="recomendaria" value="No"> No
+
+        <label>13. ¿Comprarías más de uno si hubiera promociones?</label>
+
+        <input type="radio" name="promociones" value="Sí"> Sí<br>
+        <input type="radio" name="promociones" value="No"> No
+
+    
+
+        <button type="submit">
+            Enviar encuesta
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
